@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Git testing') {
+            steps {
+                echo 'Git testing scm'
+            }
+        }
+    }
+}
